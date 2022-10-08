@@ -2,7 +2,7 @@
 
 NUMBER=$1
 
-touch $NUMBER
+touch number_record/$NUMBER
 git add .
 git commit -m "add number $NUMBER"
 git push
